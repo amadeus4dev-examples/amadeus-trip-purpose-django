@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Amadeus Trip Purpose Prediction</title>
+   </head>
+   <body>
+   {{res}}
+      <form action="" method="POST" id="form_id">
+         {% csrf_token %}
+         <h2>Trip Purpose Prediction</h2>
+         <p>
+            <input type="text" name="Origin" id="inputOrigin"
+               placeholder="From" required autofocus>
+         </p>
+         <p>
+            <input type="text" name="Destination" id="inputDestination"
+               placeholder="To" required autofocus>
+         </p>
+         <p>
+            <input type="date" name="Departuredate" id="idDeparturedate"
+               placeholder="Departure Date" required>
+         </p>
+         <p>
+            <input type="date" name="Returndate" id="idReturndate"
+               placeholder="Return Date">
+         </p>
+         <input type="Submit" name="Submit" value="Submit" />
+      </form>
+   </body>
+</html>
