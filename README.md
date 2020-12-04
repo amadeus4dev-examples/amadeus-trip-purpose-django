@@ -2,6 +2,8 @@ This project demonstrates how to integrate Amadeus APIs using the [Python SDK](h
 
 In this scenario, the end user submits round-trip information via a form and the [Trip Purpose Prediction API](https://developers.amadeus.com/self-service/category/trip/api-doc/trip-purpose-prediction) is called. This API predicts if a the given journey is for leisure or business purposes.
 
+You can refer to this [blog article](https://developers.amadeus.com/blog/amadues-api-django-python-sdk) which goes through the implementation step by step. 
+
 ## How to run the project locally
 
 Clone the repository.
